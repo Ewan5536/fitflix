@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './etptlogo2_AxA_icon.ico'; //to spesify icon on page//
 import './App.css';
+import fit1 from './fit1.jpg';
 
 function App() {
   return (
@@ -8,16 +9,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. confirm changes.
+          <h1>welcome to fitflix </h1> 
+          {/* hange site text */}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+            <img src={fit1} className='site-image' alt='site image'/>
+        </div>{/*add image to site*/}
       </header>
     </div>
   );
